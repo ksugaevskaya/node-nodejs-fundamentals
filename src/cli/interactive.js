@@ -19,7 +19,6 @@ const interactive = () => {
     } else if (command === "date") {
       console.log(new Date().toISOString());
     } else if (command === "exit") {
-      console.log("Goodbye!");
       rl.close();
       process.exit(0);
     } else {
